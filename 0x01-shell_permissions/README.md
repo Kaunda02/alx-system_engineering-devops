@@ -12,4 +12,6 @@ Scripts 10-mirror_permissions it sets the mode of the file hello the same as oll
 Scripts 11-directories_permissions it adds execute permission to all subdirectories of the current directory for the owner,the group owner and all other users
 Scripts 12-directory_permissions it creates a directory called my_dir with permissions 751 in the working directory
 Scripts 13-change_group it changes the group owner to school for the file hello
-
+Scripts 100-change_owner_and_group it changes the owner to vincent and the group owner to staff for all the fileand directories in the working directory
+Scripts 101-symbolic_link_permissions it changes the owner and the group owner of _hello to vincent and staff 
+Scripts 102-if_only it changes the owner of the file hello to betty only if it is owned by the user guillaume
